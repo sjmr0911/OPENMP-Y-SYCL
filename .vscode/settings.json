@@ -1,0 +1,17 @@
+{
+
+    "terminal.integrated.profiles.windows": {
+    "Intel oneAPI + VS": {
+        "path": "C:\\Windows\\System32\\cmd.exe",
+        "args": [
+            "/K",
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build\\vcvarsall.bat",
+            "x64",
+            "&&",
+            "C:\\Program Files (x86)\\Intel\\oneAPI\\setvars.bat"
+        ]
+    }
+},
+"terminal.integrated.defaultProfile.windows": "Intel oneAPI + VS"
+
+}
